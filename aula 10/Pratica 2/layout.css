@@ -1,0 +1,54 @@
+html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+input{
+    margin: 5% 0;
+    padding: 5px;
+    background: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px steelblue;
+}
+
+#submit{
+    width: 100%;
+    background: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px steelblue;
+    cursor: pointer;
+    margin-top: 10%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    color: white;
+    font-family: system-ui;
+    font-weight: 500;
+}
+
+div{
+    width: 15%;
+    height: 25%;
+    background: dodgerblue;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 0;
+    border-radius: 35px;
+    box-shadow: 5px 5px steelblue;
+}
